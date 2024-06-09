@@ -1,91 +1,51 @@
 =N:[UVMSource] Using sources from '/home/ricardo/metrics-ca/dsim/20240422.0.0/uvm/1.2'
-=N:[UsageMeter (2024-06-08 21:19:19 -0600)] Using /etc/ssl/certs as location of CA certificates to verify license server.
-=N:[UsageMeter (2024-06-08 21:19:20 -0600)] usage server initial connection
+=N:[UsageMeter (2024-06-08 21:22:37 -0600)] Using /etc/ssl/certs as location of CA certificates to verify license server.
+=N:[UsageMeter (2024-06-08 21:22:38 -0600)] usage server initial connection
 =N:[License] 
 Licensed for Metrics Design Automation.
 =N:[License] New lease granted.
-Using default typical min/typ/max.
-=S:Begin run-time elaboration and static initialization...
-=N:Starting event scheduler...
-UVM_INFO @ 0: reporter [RNTST] Running test test_basic...
-UVM_INFO @ 0: uvm_test_top.env [uvm_test_top.env] End_of_build_phase
-----------------------------------------------------------
-Name                   Type                    Size  Value
-----------------------------------------------------------
-env                    arb_env                 -     @351 
-  arb_drv              arb_driver              -     @362 
-    rsp_port           uvm_analysis_port       -     @381 
-    seq_item_port      uvm_seq_item_pull_port  -     @371 
-  arb_seqr             uvm_sequencer           -     @391 
-    rsp_export         uvm_analysis_export     -     @400 
-    seq_item_export    uvm_seq_item_pull_imp   -     @518 
-    arbitration_queue  array                   0     -    
-    lock_queue         array                   0     -    
-    num_last_reqs      integral                32    'd1  
-    num_last_rsps      integral                32    'd1  
-----------------------------------------------------------
-UVM_INFO @ 0: uvm_test_top [uvm_test_top] End_of_elaboration
-------------------------------------------------------------
-Name                     Type                    Size  Value
-------------------------------------------------------------
-uvm_test_top             test_basic              -     @333 
-  env                    arb_env                 -     @351 
-    arb_drv              arb_driver              -     @362 
-      rsp_port           uvm_analysis_port       -     @381 
-      seq_item_port      uvm_seq_item_pull_port  -     @371 
-    arb_seqr             uvm_sequencer           -     @391 
-      rsp_export         uvm_analysis_export     -     @400 
-      seq_item_export    uvm_seq_item_pull_imp   -     @518 
-      arbitration_queue  array                   0     -    
-      lock_queue         array                   0     -    
-      num_last_reqs      integral                32    'd1  
-      num_last_rsps      integral                32    'd1  
-------------------------------------------------------------
-UVM_INFO ../testbench/driver.sv(68) @ 0: uvm_test_top.env.arb_drv [DRV] Wait for item from sequencer
-UVM_INFO ../testbench/driver.sv(33) @ 0: uvm_test_top.env.arb_seqr@@seq [SEQ] Generate new item: 
-----------------------------------------------------------------------------
-Name                           Type      Size  Value                        
-----------------------------------------------------------------------------
-f_item                         arb_item  -     @560                         
-  begin_time                   time      64    0                            
-  depth                        int       32    'd2                          
-  parent sequence (name)       string    3     seq                          
-  parent sequence (full name)  string    29    uvm_test_top.env.arb_seqr.seq
-  sequencer                    string    25    uvm_test_top.env.arb_seqr    
-----------------------------------------------------------------------------
-UVM_INFO ../testbench/driver.sv(68) @ 0: uvm_test_top.env.arb_drv [DRV] Wait for item from sequencer
-UVM_INFO ../testbench/driver.sv(33) @ 0: uvm_test_top.env.arb_seqr@@seq [SEQ] Generate new item: 
-----------------------------------------------------------------------------
-Name                           Type      Size  Value                        
-----------------------------------------------------------------------------
-f_item                         arb_item  -     @560                         
-  begin_time                   time      64    0                            
-  depth                        int       32    'd2                          
-  parent sequence (name)       string    3     seq                          
-  parent sequence (full name)  string    29    uvm_test_top.env.arb_seqr.seq
-  sequencer                    string    25    uvm_test_top.env.arb_seqr    
-----------------------------------------------------------------------------
-UVM_INFO ../testbench/driver.sv(68) @ 0: uvm_test_top.env.arb_drv [DRV] Wait for item from sequencer
-UVM_INFO ../testbench/driver.sv(38) @ 0: uvm_test_top.env.arb_seqr@@seq [SEQ] Done generation of 2 items
-UVM_INFO /home/ricardo/metrics-ca/dsim/20240422.0.0/uvm/1.2/src/base/uvm_objection.svh(1270) @ 0: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/ricardo/metrics-ca/dsim/20240422.0.0/uvm/1.2/src/base/uvm_report_server.svh(847) @ 0: reporter [UVM/REPORT/SERVER] 
---- UVM Report Summary ---
+Analyzing...
+Elaborating...
+  Top-level modules:
+    $unit
+    top_hvl
+=W:[IneffectiveDynamicCast]:
+    The following dynamic $cast cases will always be false    
 
-** Report counts by severity
-UVM_INFO :   10
-UVM_WARNING :    0
-UVM_ERROR :    0
-UVM_FATAL :    0
-** Report counts by id
-[DRV]     3
-[RNTST]     1
-[SEQ]     3
-[TEST_DONE]     1
-[uvm_test_top]     1
-[uvm_test_top.env]     1
+    /home/ricardo/metrics-ca/dsim/20240422.0.0/uvm/1.2/src/base/uvm_callback.svh:521:9              class uvm_pkg::uvm_callbacks#(class uvm_pkg::uvm_phase,class uvm_pkg::uvm_phase_cb)    class uvm_pkg::uvm_callbacks#(class uvm_pkg::uvm_phase,class uvm_pkg::uvm_callback)    
+    Included from /home/ricardo/metrics-ca/dsim/20240422.0.0/uvm/1.2/src/base/uvm_base.svh:76:12                                                                                                                                                                                  
+    Included from /home/ricardo/metrics-ca/dsim/20240422.0.0/uvm/1.2/src/uvm_pkg.sv:31:12                                                                                                                                                                                         
 
-=T:Simulation terminated by $finish at time 0 (/home/ricardo/metrics-ca/dsim/20240422.0.0/uvm/1.2/src/base/uvm_root.svh:517);
-Run directory: /home/ricardo/Git_Repos/uvm_basic_config_dsim_metrics_example/sim
-  System timescale is 1ns / 1ns
+    /home/ricardo/metrics-ca/dsim/20240422.0.0/uvm/1.2/src/base/uvm_callback.svh:671:12             class uvm_pkg::uvm_phase                                                               class uvm_pkg::uvm_report_object                                                       
+    Included from /home/ricardo/metrics-ca/dsim/20240422.0.0/uvm/1.2/src/base/uvm_base.svh:76:12                                                                                                                                                                                  
+
+    /home/ricardo/metrics-ca/dsim/20240422.0.0/uvm/1.2/src/base/uvm_callback.svh:731:10             class uvm_pkg::uvm_component                                                           class uvm_pkg::uvm_phase                                                               
+    Included from /home/ricardo/metrics-ca/dsim/20240422.0.0/uvm/1.2/src/base/uvm_base.svh:76:12                                                                                                                                                                                  
+
+    /home/ricardo/metrics-ca/dsim/20240422.0.0/uvm/1.2/src/base/uvm_callback.svh:808:10             class uvm_pkg::uvm_component                                                           class uvm_pkg::uvm_phase                                                               
+    Included from /home/ricardo/metrics-ca/dsim/20240422.0.0/uvm/1.2/src/base/uvm_base.svh:76:12                                                                                                                                                                                  
+
+=W:[ExprStmtNotVoid]:
+    The following expressions used as statements do not have void type:    
+
+    ../testbench/driver.sv:32:7                     int    
+    Included from ../testbench/testbench.sv:7:10           
+    Included from ../testbench/top_hvl.sv:4:10             
+
+    ../testbench/test_basic.sv:55:5                 int    
+    Included from ../testbench/testbench.sv:9:10           
+
+=W:[UninstVif]:
+    The following interfaces were referenced as virtual interfaces    
+    but are not instantiated in the design:                           
+
+    ../testbench/interface.sv:4:1                   arb_intf    
+    Included from ../testbench/testbench.sv:6:10                
+
+  Found 5 unique specialization(s) of 5 design element(s).
+Optimizing...
+Building models...
+PLI/VPI access: +b 
+Simulation time precision is 1ns.
+Linking image.so...
   Metrics DSim version: 20240422.0.0 (b:R #c:0 h:d894f4c124 os:debian_11)
-  Random seed: (defaulted to 1)

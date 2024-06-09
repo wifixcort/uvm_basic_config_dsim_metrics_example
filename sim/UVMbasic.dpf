@@ -7,7 +7,7 @@ design_root_dir: ..\..
 simulations:
   - name: uvm_sim
     options: '-image image -uvm 1.2   +UVM_NO_RELNOTES +UVM_TESTNAME=test_basic'
-  - name: uvm_s
+  - name: uvm_pre_simulation
     options: >-
       -top TB.top_hvl -L TB -L DUT  -genimage image -uvm 1.2 +acc+b  -waves
       waves.mxd
