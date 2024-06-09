@@ -1,0 +1,135 @@
+=E:[ParseError]:
+    Parser errors encountered at the following locations:    
+
+    ../uvm-core-2020.3.0/src/base/uvm_barrier.svh:1:1                       unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_base.svh:1:1                          unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_bottomup_phase.svh:1:1                unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_cache.svh:1:1                         unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_callback.svh:1:1                      unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_cmdline_processor.svh:1:1             unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_cmdline_report.svh:1:1                unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_common_phases.svh:1:1                 unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_comparer.svh:1:1                      unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_component.svh:1:1                     unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_config_db_implementation.svh:1:1      unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_config_db.svh:1:1                     unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_copier.svh:1:1                        unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_coreservice.svh:1:1                   unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_domain.svh:1:1                        unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_event_callback.svh:1:1                unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_event.svh:1:1                         unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_factory.svh:1:1                       unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_field_op.svh:1:1                      unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_globals.svh:1:1                       unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_hdl_polling.svh:1:1                   unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_heartbeat.svh:1:1                     unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_links.svh:1:1                         unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_lru_cache.svh:1:1                     unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_misc.svh:1:1                          unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_object_globals.svh:1:1                unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_objection.svh:1:1                     unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_object.svh:1:1                        unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_packer.svh:1:1                        unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_phase_hopper.svh:1:1                  unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_phase.svh:1:1                         unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_policy.svh:1:1                        unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_pool.svh:1:1                          unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_port_base.svh:1:1                     unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_printer.svh:1:1                       unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_process_guard_base.svh:1:1            unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_process_guard.svh:1:1                 unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_queue.svh:1:1                         unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_recorder.svh:1:1                      unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_regex_cache.svh:1:1                   unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_registry.svh:1:1                      unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_report_catcher.svh:1:1                unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_report_handler.svh:1:1                unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_report_message.svh:1:1                unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_report_object.svh:1:1                 unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_report_server.svh:1:1                 unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_resource_base.svh:1:1                 unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_resource_db_implementation.svh:1:1    unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_resource_db_options.svh:1:1           unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_resource_db.svh:1:1                   unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_resource_pool.svh:1:1                 unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_resource_specializations.svh:1:1      unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_resource.svh:1:1                      unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_root.svh:1:1                          unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_run_test_callback.svh:1:1             unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_runtime_phases.svh:1:1                unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_spell_chkr.svh:1:1                    unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_task_phase.svh:1:1                    unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_text_tr_database.svh:1:1              unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_text_tr_stream.svh:1:1                unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_topdown_phase.svh:1:1                 unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_transaction.svh:1:1                   unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_traversal.svh:1:1                     unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_tr_database.svh:1:1                   unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_tr_stream.svh:1:1                     unrecognized tokens before '/'    
+
+    ../uvm-core-2020.3.0/src/base/uvm_version.svh:1:1                       unrecognized tokens before '/'    
+
